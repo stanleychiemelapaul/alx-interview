@@ -13,13 +13,15 @@ def pascal_triangle(n):
 
         new_row.append(1)
         triangle.append(new_row)
+    
+    result = pascal_triangle(n)
+    for row in result:
+        print(row)
 
     return triangle
 
 # Example usage:
-result = pascal_triangle(5)
-for row in result:
-    print(row)
+
 
 # if __name__ == "__main__":
 #     print_triangle(pascal_triangle(5))
