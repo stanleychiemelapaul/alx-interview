@@ -17,6 +17,9 @@ def pascal_triangle(n):
     return triangle
 
 # Example usage:
-result = pascal_triangle(5)
-for row in result:
-    print(row)
+# result = pascal_triangle(5)
+# for row in result:
+#     print(row)
+
+# if __name__ == "__main__":
+#     print_triangle(pascal_triangle(5))
